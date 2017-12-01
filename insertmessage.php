@@ -3,12 +3,8 @@
 		/*
 			This script is triggered when a new message is being sent to the message board.
 			Before any SQL, we verify that the message contains at least one character. 
-			If so, we enter the message and its sender into the message user base.
-			
-			We then pull the email of every user that IS NOT the sender,
-			and generate an email notification that someone has posted to the message board,
-			and include a link to view.
-			
+			If so, we enter the message and its sender into the message base.
+	
 			Redirect back to index.php.
 		*/
 		
